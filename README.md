@@ -5,11 +5,20 @@ Terraform-AWS-Dynamodb
 
  Create a DynamoDB Table using Terraform.
 
-Firstly Go the given URL and copy the content from the terraform docs of aws_dynamodb_table and make changes to it according to you:
+Clone this repo
 
-[Dynamodb Table Content](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/dynamodb_table)
+```
+cd Terraform-AWS-Dynamodb
+```
 
 Now you should have AWS CLI in your local machine and then configure your AWS as:
+```
+provider "aws"{
+region = "us-east-1"
+access_key = "Your_Access_Key"
+secret_key = "Your_Secret_Key"
+}
+```
 
 Now run the Terraform command to Create the AWS-Dynamodb as:
 
