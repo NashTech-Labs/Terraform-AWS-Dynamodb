@@ -13,23 +13,23 @@ Now you should have AWS CLI in your local machine and then configure your AWS as
 
 Now run the Terraform command to Create the AWS-Dynamodb as:
 
-'''
+```
 terraform init
-'''
+```
 
-'''
+```
 terraform plan
-'''
+```
 
-'''
+```
 terrafrom apply
-'''
+```
 
 At last if you want to delete the resources to avoid unnecessary charges , you should use:
 
-'''
+```
 terraform destory
-'''
+```
 
 
 
